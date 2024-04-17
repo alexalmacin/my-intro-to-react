@@ -1,0 +1,7 @@
+JavaScript is used in React to create elements rather than using HTML directly. In the body, we can make a div with the ID "root." 
+This is usually where our code goes in a React project. After adding a script tag of type "text/javascript," enter "ReactDOM.render." This is an essential method in the ReactDOM framework that requires two arguments. 
+
+The element we want is first created by "React.createElement". To reproduce the h1, for example, use React to create "h1," null (no extra attributes), and "getting started with React."
+
+The location of the element is specified by the second argument, which in this case is "document.getElementById('root')." 
+It means, "Render this element and put it inside the 'root' div." Save, reload, and it's done! We've finished building our first React element.
