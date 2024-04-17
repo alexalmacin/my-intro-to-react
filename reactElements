@@ -5,3 +5,25 @@ The element we want is first created by "React.createElement". To reproduce the 
 
 The location of the element is specified by the second argument, which in this case is "document.getElementById('root')." 
 It means, "Render this element and put it inside the 'root' div." Save, reload, and it's done! We've finished building our first React element.
+
+
+Everything in React is centered around components. Your user interface's components are its building blocks. 
+You construct a component for whatever you wish to make in your app, such as a button, a form, or even an entire page.
+Now, React provides you with other ways to generate these components. Making React elements is one of the basic methods.
+React elements can be thought of as descriptions of the visuals you wish to see on the screen. 
+These are simplified versions of DOM elements. JSX is an HTML-like syntax extension for JavaScript that you use to create them. Writing React components is easier to understand and more readable with JSX.
+
+Example:
+const element = <h1>Hello, world!</h1>;
+
+In this example, <h1>Hello, world!</h1> is a React element. It looks like HTML, but it's actually JSX.
+
+Now, to display this element on the screen, you need to render it. 
+Rendering in React means turning these elements into actual DOM nodes that the browser can understand and display. 
+You do this using the ReactDOM.render() method.
+
+Example:
+ReactDOM.render(
+  element,
+  document.getElementById('root')
+);
