@@ -1,0 +1,33 @@
+Among JavaScript libraries, React.js is unique. In contrast to others, it uses reusable parts for UI creation rather than templates. 
+This method makes it simple for developers to generate views that dynamically adjust based on changing data. 
+What was the outcome? React apps are easier to maintain and more scalable, which pleases users and developers alike. 
+
+This module will teach you key ideas, such as:
+
+Introduction to React
+React Elements
+React Components
+React States
+React Forms
+Asynchronous React
+React Routers
+React Deployment
+
+What is React?
+In March 2013, Facebook released React, a JavaScript user interface library, as an open source project. 
+React Native is the result of its evolution since then, taking it beyond the web. 
+With the help of this tool, you may create React native mobile apps. 
+The React Docs are an invaluable resource for anyone learning React; they are extremely well-written and updated on a regular basis. 
+React's popularity stretches beyond its widespread use to include its appealing user interface and the efficiency that its component architecture provides. 
+Not just because of its popularity, but also because it makes it easier to create visually stunning products for both online and native devices, major players in the industry like Twitter, Netflix, and Microsoft rely on React.
+
+What is React.js primarily used for?
+- Web Development
+What is NOT a feature of React.js?
+- SQL Database
+What does JSX stand for in React.js?
+- JScript XML
+What is a core concept in React.js?
+- Components
+In React, what is the purpose of the "ReactDOM.render()" method?
+- To render a component to the DOM
