@@ -1,0 +1,14 @@
+Components in React are similar to the various elements of that house, such as the roof, windows, doors, and walls. 
+Although each part can be constructed alone and has a distinct function, they all work together to form the entire structure.
+
+- Components: They are the building blocks of a React application. In essence, a component is a JavaScript function or class that produces a user interface element. 
+It captures the look and feel of a certain area of the user interface.
+- Creating a Component: In React, a component is essentially a reusable code segment that represents a particular area of your user interface. 
+This could be a form or a navigation bar, or it could be something more intricate like a button.
+- Structure of Components: HTML elements can be compared to the structure of components. 
+Props are short for properties, and they can have qualities that let you alter their appearance and behavior. A hierarchy of elements can be created by components containing other components.
+- Rendering Components: To make your components appear on the screen after they have been defined, you must render them to the Document Object Model (DOM). 
+React's ReactDOM.render() function is usually used for this.
+- Reusability: Using React components has several advantages, one of which is reusability. Once a component is constructed, it may be reused across your program without requiring new code to be written.
+- Component Lifecycle: React components are generated, mounted, updated, and finally unmounted from the document object model (DOM). 
+Using this lifecycle, you can carry out operations at various points in a component's lifecycle, such retrieving data upon initial mounting or clearing off resources upon unmounting.
